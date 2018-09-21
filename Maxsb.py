@@ -75,81 +75,81 @@ def sendMessageWithMention(to, mid):
         logError(error)
         
 def helpmessage():
-    helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+    helpMessage = "╔════════════════" + "\n" + \
+                  "╠❂【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
                   "║" + "\n" + \
-                  "╠══✪〘 Help Message 〙✪══" + "\n" + \
+                  "╠═✪〘 Help Message 〙✪═" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Help 〙✪════════" + "\n" + \
-                  "╠➥ Help" + "\n" + \
-                  "╠➥ Translate" + "\n" + \
-                  "╠➥ Texttospeech" + "\n" + \
+                  "╠═✪〘 Help 〙✪════" + "\n" + \
+                  "╠ ✯͜͡❂ Help" + "\n" + \
+                  "╠ ✯͜͡❂ Translate" + "\n" + \
+                  "╠ ✯͜͡❂ Texttospeech" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Status 〙✪════════" + "\n" + \
-                  "╠➥ Restart" + "\n" + \
-                  "╠➥ Runtime" + "\n" + \
-                  "╠➥ Speed" + "\n" + \
-                  "╠➥ Status" + "\n" + \
-                  "╠➥ About" + "\n" + \
+                  "╠═✪〘 Status 〙✪════════" + "\n" + \
+                  "╠ ✯͜͡❂ Restart" + "\n" + \
+                  "╠ ✯͜͡❂ Runtime" + "\n" + \
+                  "╠ ✯͜͡❂ Sp" + "\n" + \
+                  "╠ ✯͜͡❂ Status" + "\n" + \
+                  "╠ ✯͜͡❂ About" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Settings 〙✪═══════" + "\n" + \
-                  "╠➥ AutoAdd「On/Off」" + "\n" + \
-                  "╠➥ AutoJoin「On/Off」" + "\n" + \
-                  "╠➥ AutoLeave「On/Off」" + "\n" + \
-                  "╠➥ AutoRead「On/Off」" + "\n" + \
-                  "╠➥ CheckSticker「On/Off」" + "\n" + \
-                  "╠➥ DetectMention「On/Off」" + "\n" + \
+                  "╠═✪〘 Settings 〙✪═══════" + "\n" + \
+                  "╠ ✯͜͡❂ AutoAdd「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ AutoJoin「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ AutoLeave「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ AutoRead「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ CheckSticker「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ DetectMention「On/Off」" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Self 〙✪═════════" + "\n" + \
-                  "╠➥ Me" + "\n" + \
-                  "╠➥ MyMid" + "\n" + \
-                  "╠➥ MyName" + "\n" + \
-                  "╠➥ MyBio" + "\n" + \
-                  "╠➥ MyPicture" + "\n" + \
-                  "╠➥ MyVideoProfile" + "\n" + \
-                  "╠➥ MyCover" + "\n" + \
-                  "╠➥ StealContact「Mention」" + "\n" + \
-                  "╠➥ StealMid「Mention」" + "\n" + \
-                  "╠➥ StealName「Mention」" + "\n" + \
-                  "╠➥ StealBio「Mention」" + "\n" + \
-                  "╠➥ StealPicture「Mention」" + "\n" + \
-                  "╠➥ StealVideoProfile「Mention」" + "\n" + \
-                  "╠➥ StealCover「Mention」" + "\n" + \
-                  "╠➥ CloneProfile「Mention」" + "\n" + \
-                  "╠➥ RestoreProfile" + "\n" + \
+                  "╠═✪〘 Self 〙✪═════════" + "\n" + \
+                  "╠ ✯͜͡❂ Me" + "\n" + \
+                  "╠ ✯͜͡❂ MyMid" + "\n" + \
+                  "╠ ✯͜͡❂ MyName" + "\n" + \
+                  "╠ ✯͜͡❂ MyBio" + "\n" + \
+                  "╠ ✯͜͡❂ MyPicture" + "\n" + \
+                  "╠ ✯͜͡❂ MyVideoProfile" + "\n" + \
+                  "╠ ✯͜͡❂ MyCover" + "\n" + \
+                  "╠ ✯͜͡❂ StealContact「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealMid「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealName「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealBio「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealPicture「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealVideoProfile「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ StealCover「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ CloneProfile「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ RestoreProfile" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Group 〙✪════════" + "\n" + \
-                  "╠➥ GroupCreator" + "\n" + \
-                  "╠➥ GroupId" + "\n" + \
-                  "╠➥ GroupName" + "\n" + \
-                  "╠➥ GroupPicture" + "\n" + \
-                  "╠➥ GroupTicket" + "\n" + \
-                  "╠➥ GroupTicket「On/Off」" + "\n" + \
-                  "╠➥ GroupList" + "\n" + \
-                  "╠➥ GroupMemberList" + "\n" + \
-                  "╠➥ GroupInfo" + "\n" + \
-                  "╠➥ Kill「Mention」" + "\n" + \
-                  "╠➥ KickAllMember"+ "\n" + \
+                  "╠═✪〘 Group 〙✪════════" + "\n" + \
+                  "╠ ✯͜͡❂ GroupCreator" + "\n" + \
+                  "╠ ✯͜͡❂ GroupId" + "\n" + \
+                  "╠ ✯͜͡❂ GroupName" + "\n" + \
+                  "╠ ✯͜͡❂ GroupPicture" + "\n" + \
+                  "╠ ✯͜͡❂ GroupTicket" + "\n" + \
+                  "╠ ✯͜͡❂ GroupTicket「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ GroupList" + "\n" + \
+                  "╠ ✯͜͡❂ GroupMemberList" + "\n" + \
+                  "╠ ✯͜͡❂ GroupInfo" + "\n" + \
+                  "╠ ✯͜͡❂ Kill「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ KickAllMember"+ "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Special 〙✪═══════" + "\n" + \
-                  "╠➥ Mimic「On/Off」" + "\n" + \
-                  "╠➥ MimicList" + "\n" + \
-                  "╠➥ MimicAdd「Mention」" + "\n" + \
-                  "╠➥ MimicDel「Mention」" + "\n" + \
-                  "╠➥ Mention" + "\n" + \
-                  "╠➥ Lurking「Oɴ/Off/Reset」" + "\n" + \
-                  "╠➥ Lurking" + "\n" + \
+                  "╠═✪〘 Special 〙✪═══════" + "\n" + \
+                  "╠ ✯͜͡❂ Mimic「On/Off」" + "\n" + \
+                  "╠ ✯͜͡❂ MimicList" + "\n" + \
+                  "╠ ✯͜͡❂ MimicAdd「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ MimicDel「Mention」" + "\n" + \
+                  "╠ ✯͜͡❂ Mention" + "\n" + \
+                  "╠ ✯͜͡❂ Lurking「Oɴ/Off/Reset」" + "\n" + \
+                  "╠ ✯͜͡❂ Lurking" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Media 〙✪════════" + "\n" + \
-                  "╠➥ Kalender" + "\n" + \
-                  "╠➥ CheckDate「Date」" + "\n" + \
-                  "╠➥ InstagramInfo「UserName」" + "\n" + \
-                  "╠➥ InstagramPost「UserName」" + "\n" + \
-                  "╠➥ SearchYoutube「Search」" + "\n" + \
-                  "╠➥ SearchMusic「Search」" + "\n" + \
-                  "╠➥ SearchLyric「Search」" + "\n" + \
-                  "╠➥ SearchImage「Search」" + "\n" + \
-                  "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
+                  "╠═✪〘 Media 〙✪════════" + "\n" + \
+                  "╠ ✯͜͡❂ Kalender" + "\n" + \
+                  "╠ ✯͜͡❂ CheckDate「Date」" + "\n" + \
+                  "╠ ✯͜͡❂ InstagramInfo「UserName」" + "\n" + \
+                  "╠ ✯͜͡❂ InstagramPost「UserName」" + "\n" + \
+                  "╠ ✯͜͡❂ SearchYoutube「Search」" + "\n" + \
+                  "╠ ✯͜͡❂ SearchMusic「Search」" + "\n" + \
+                  "╠ ✯͜͡❂ SearchLyric「Search」" + "\n" + \
+                  "╠ ✯͜͡❂ SearchImage「Search」" + "\n" + \
+                  "╠ ✯͜͡❂ ScreenshootWebsite「LinkUrl」" + "\n" + \
                   "║" + "\n" + \
                   "╚═〘 Credits By: ©Nadya_TJ™  〙"
     return helpMessage
@@ -364,7 +364,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -372,7 +372,7 @@ def lineBot(op):
                     helpTranslate = helptranslate()
                     nadya.sendMessage(to, str(helpTranslate))
 #==============================================================================#
-                elif text.lower() == 'speed':
+                elif text.lower() == 'sp':
                     start = time.time()
                     nadya.sendMessage(to, "Prosses...")
                     elapsed_time = time.time() - start
@@ -390,7 +390,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "ue1d6a794435130d139f9c5dde19aa9e5"
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
