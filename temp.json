@@ -1,7 +1,7 @@
 {
     "autoAdd": false,
     "autoJoin": true,
-    "autoJoinTicket": false,
+    "autoJoinTicket": true,
     "autoLeave": false,
     "autoRead": false,
     "blacklist": {
@@ -14,9 +14,9 @@
     "checkSticker": false,
     "dblack": false,
     "dblacklist": false,
-    "detectMention": false,
+    "detectMention": true,
     "inviteprotect": false,
-    "keyCommand": "",
+    "keyCommand": "MAXSY",
     "kickjoin": false,
     "lang": "JP",
     "mimic": {
