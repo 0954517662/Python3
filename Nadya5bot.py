@@ -56,9 +56,9 @@ ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 
 Bots = [nadyaMID,kiMID,ki2MID,ki3MID,ki4MID]
-creator = ["u14f64e139a3817afaabe27d237afb36b","u92e4326146a0bf296ca15846aa2a25f6"]
-Owner = ["u14f64e139a3817afaabe27d237afb36b"]
-admin = ["u14f64e139a3817afaabe27d237afb36b"]
+creator = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+Owner = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+admin = ["ue1d6a794435130d139f9c5dde19aa9e5"]
 
 nadyaProfile = nadya.getProfile()
 kiProfile = ki.getProfile()
@@ -139,7 +139,7 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠✪【さัএπัஞ✵ບิथℓℓҨतΩ】" + "\n" + \
                   "║" + "\n" + \
                   "╠══✪〘 Help Message 〙✪══" + "\n" + \
                   "║" + "\n" + \
@@ -237,7 +237,7 @@ def helpmessage():
                   "╠➥ JoinAll" + "\n" + \
                   "╠➥ ByeAll" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 Credits By: MAXSY 〙"
     return helpMessage
     
 def helptexttospeech():
@@ -573,7 +573,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+                    nadya.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -600,7 +600,7 @@ def lineBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "ue1d6a794435130d139f9c5dde19aa9e5"
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
@@ -689,10 +689,10 @@ def lineBot(op):
                             nadya.sendMessage(msg.to,"The Ownerlist is empty")
                         else:
                             nadya.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Owner List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠♥ ✿✿✿ MAXSY ✿✿✿ ♥\n╠══✪〘 Owner List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +nadya.getContact(mi_d).displayName + "\n"
-                            nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
+                            nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~self_js 〙\n╚═══════════════")
 #-------------------------------------------------------------------------------
                 elif msg.text.lower().startswith("adminadd "):
                     if msg._from in Owner:
@@ -740,10 +740,10 @@ def lineBot(op):
                             nadya.sendMessage(msg.to,"The Adminlist is empty")
                         else:
                             nadya.sendMessage(msg.to,"Tunggu...")
-                            mc = "╔═══════════════\n╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥\n╠══✪〘 Admin List 〙✪═══\n"
+                            mc = "╔═══════════════\n╠♥ ✿✿✿ MAXSY ✿✿✿ ♥\n╠══✪〘 Admin List 〙✪═══\n"
                             for mi_d in admin:
                                 mc += "╠✪ " +nadya.getContact(mi_d).displayName + "\n"
-                            nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~nad_nad. 〙\n╚═══════════════")
+                            nadya.sendMessage(msg.to,mc + "╠═══════════════\n╠✪〘 line.me/ti/p/~self_js 〙\n╚═══════════════")
 #-------------------------------------------------------------------------------
                 elif text.lower() == 'protect on':
                     if msg._from in Owner:
@@ -1312,12 +1312,12 @@ def lineBot(op):
                 elif text.lower() == 'mention':
                     group = nadya.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = u''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += u'@Alin \n'
