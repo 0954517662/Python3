@@ -743,12 +743,12 @@ def lineBot(op):
                 elif text.lower() == 'mention':
                     group = nadya.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = u''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += u'@Alin \n'
@@ -2280,7 +2280,7 @@ def lineBot(op):
                             if nadyaMID in mention["M"]:
                                 if settings["detectMention"] == True:
                                     contact = nadya.getContact(sender)
-                                    nadya.sendMessage(to, "sundala nu")
+                                    nadya.sendMessage(to, "Ngapain NgeTag aim??\nAchiel nya lg pingsan..\nBangunnya besok..\nTag nya besok ajah 😂")
                                     sendMessageWithMention(to, contact.mid)
                                 break
 #==============================================================================#
