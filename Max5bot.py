@@ -3802,7 +3802,7 @@ def lineBot(op):
                             if nadyaMID in mention["M"]:
                                 if settings["detectMention"] == True:
                                     contact = nadya.getContact(sender)
-                                    nadya.sendMessage(to, "sundala nu")
+                                    nadya.sendMessage(to, "Ngapain NgeTag aim??\nAchiel nya lg pingsan..\nBangunnya besok..\nTag nya besok ajah 😂")
                                     sendMessageWithMention(to, contact.mid)
                                 break
                         
