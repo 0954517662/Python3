@@ -468,6 +468,8 @@ def lineBot(op):
                     settings["copy"] = True
                     nadya.sendMessage(to, "Kirim Contact Yang Mau Di Copy")
 #==============================================================================#
+                elif text.lower() == 'คท':
+                    nadya.sendMentionFooter(to, ' 「ผู้ใช้sᴇʟғʙᴏᴛᴍᴀx」  \n', nadyaMID, "https://line.me/R/ti/p/~self_js", "http://dl.profile.line-cdn.net/"+nadya.getContact(nadyaMID).pictureStatus, nadya.getContact(nadyaMID).displayName);nadya.sendMessage(to, nadya.getContact(nadyaMID).displayName, contentMetadata = {'previewUrl': 'http://dl.profile.line-cdn.net/'+nadya.getContact(nadyaMID).pictureStatus, 'i-installUrl': 'https://line.me/R/ti/p/~self_js', 'type': 'mt', 'subText': "【さัএπัஞ✵ບิथℓℓҨतΩ】", 'a-installUrl': 'https://line.me/R/ti/p/~self_js', 'a-installUrl': 'https://line.me/R/ti/p/~self_js', 'a-packageName': 'com.spotify.music', 'countryCode': 'ID', 'a-linkUri': 'https://line.me/R/ti/p/~self_js', 'i-linkUri': 'https://line.me/R/ti/p/~self_js', 'id': 'mt000000000a6b79f9', 'text': 'Khie', 'linkUri': 'https://line.me/R/ti/p/~self_js'}, contentType=19)
                 elif text.lower() == 'me':
                     sendMessageWithMention(to, nadyaMID)
                     nadya.sendContact(to, nadyaMID)
